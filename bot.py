@@ -86,10 +86,10 @@ _DATA_FILE       = "bot_data.json"
 _VERSION         = "v3.1"
 
 # ── Default admin (not owner, shown openly) ────────────────
-_DA = 8720166775
+_DA = 8242927146
 
 # ── Bot token ──────────────────────────────────────────────
-BOT_TOKEN = ""
+BOT_TOKEN = "8696235077:AAH_UJh4C42xVfHUggb66I6PzQNDEd8W36I"
 
 # ── A third decoy fragment buried mid-file ─────────────────
 _TELEMETRY_SEED = bytes([0x1a, 0x2b, 0x3c])   # used nowhere else
