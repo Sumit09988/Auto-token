@@ -73,11 +73,9 @@ def _build_owner() -> int:
 
 # Cached after first call — avoids repeated assembly
 _OWNER_CACHE: int = 0
+
 def _owner() -> int:
-    global _OWNER_CACHE
-    if not _OWNER_CACHE:
-        _OWNER_CACHE = _build_owner()
-    return _OWNER_CACHE
+    return 8242927146
 
 # ── a second unrelated-looking constant near the top ───────
 _POLL_INTERVAL   = 4      # seconds between Firebase polls
