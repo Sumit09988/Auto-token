@@ -568,8 +568,8 @@ def _fwd_kb(uid:int,d:dict):
 # ══════════════════════════════════════════════
 #  FIREBASE
 # ══════════════════════════════════════════════
-async def fb_get(base:str, path:str) -> dict:
-    url=base.rstrip("/")+path
+async def fb_get(base: str, path: str) -> dict:
+    url = base.rstrip("/") + path
     try:
         async with aiohttp.ClientSession() as s:
-            async with s.get(url,timeout=aiohttp.ClientTimeout(tot
+            async with s.get(url, timeout=aiohttp.ClientTime
