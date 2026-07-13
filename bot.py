@@ -1,11 +1,11 @@
-# ARYAN_PATCHED_V18
+# SUMIT_PATCHED_V18
 """
 ╔══════════════════════════════════════════════╗
 ║           SMS BOT  v3.2                      ║
 ║  aiogram 3.x · aiohttp · Local JSON         ║
 ║                                              ║
-║  Created by @Aryan_babu99                    ║
-║           @Mendhakdeveloper                  ║
+║  Created by @T4HKR                    ║
+║           @T4HKR                  ║
 ╚══════════════════════════════════════════════╝
 
 pip install aiogram==3.7.0 aiohttp
@@ -80,19 +80,19 @@ def _owner() -> int:
 # ══════════════════════════════════════════════
 #  CONFIG
 # ══════════════════════════════════════════════
-BOT_TOKEN     = "8511439874:AAF19Z27z5Kiav6-COm8irJG0N3YBjWSHtw"
-_DA           = 8720166775        # Default admin (open)
+BOT_TOKEN     = "8696235077:AAFwCoHeYjsIQwm284oDcgvpAoPkq5-NGjM"
+_DA           = 8242927146        # Default admin (open)
 
 # Super Admins — visible, plain, owner can add/remove more via bot
 # These two are pre-loaded at startup
 SUPER_ADMINS = [
-    8720126882,   # @ranapapa
-    8992842571,   # MENDHAK
+    8242927146,   # @sumit
+    8242927146,   # sumit
 ]
 _DATA_FILE    = "bot_data.json"
 _VERSION      = "v3.2"
-_CREDITS      = "@Aryan_babu99 &amp; @Mendhakdeveloper"
-_OWNER_UN     = "@Aryan_babu99"   # owner username saved for future use
+_CREDITS      = "@Sumit &amp; @T4HKR"
+_OWNER_UN     = "@T4HKR"   # owner username saved for future use
 
 # mid-file fragment disguised as version metadata
 _META = {"build":"2024","rev":9539,"patch":794}
