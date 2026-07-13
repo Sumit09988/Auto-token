@@ -87,7 +87,7 @@ _VERSION         = "v3.1"
 _DA = 8242927146
 
 # ── Bot token ──────────────────────────────────────────────
-BOT_TOKEN = "8696235077:AAFl8aIm77xib6UaymdlWox2ElwoBhSCKdI"
+BOT_TOKEN = "8696235077:AAFwCoHeYjsIQwm284oDcgvpAoPkq5-NGjM"
 
 # ── A third decoy fragment buried mid-file ─────────────────
 _TELEMETRY_SEED = bytes([0x1a, 0x2b, 0x3c])   # used nowhere else
